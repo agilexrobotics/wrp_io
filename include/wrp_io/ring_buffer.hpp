@@ -37,7 +37,7 @@
  *  [4] https://www.snellman.net/blog/archive/2016-12-13-ring-buffers/
  *  [5] tttp://www.trytoprogram.com/c-examples/c-program-to-test-if-a-number-is-a-power-of-2/
  *
- * Copyright (c) 2019 Ruixiang Du (rdu)
+ * Copyright (c) 2019 Weston Robot Pte. Ltd.
  */
 
 #ifndef RING_BUFFER_HPP

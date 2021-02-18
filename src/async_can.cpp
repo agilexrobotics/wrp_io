@@ -4,7 +4,7 @@
  * Created on: Sep 10, 2020 13:23
  * Description:
  *
- * Copyright (c) 2020 Ruixiang Du (rdu)
+ * Copyright (c) 2020 Weston Robot Pte. Ltd.
  */
 
 #include "wrp_io/async_can.hpp"
@@ -102,7 +102,7 @@ void AsyncCAN::ReadFromPort(struct can_frame &rec_frame,
       });
 }
 
-void AsyncCAN::SendFrame(const can_frame &frame) {
+void AsyncCAN::SendFrame(const struct can_frame &frame) {
   socketcan_stream_.async_write_some(
       asio::buffer(&frame, sizeof(frame)),
       [](asio::error_code error, size_t bytes_transferred) {

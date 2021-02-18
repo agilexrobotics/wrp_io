@@ -4,7 +4,7 @@
  * Created on: Sep 10, 2020 12:59
  * Description:
  *
- * Copyright (c) 2020 Ruixiang Du (rdu)
+ * Copyright (c) 2020 Weston Robot Pte. Ltd.
  */
 
 #ifndef ASYNC_SERIAL_HPP
